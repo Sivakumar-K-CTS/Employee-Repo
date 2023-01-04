@@ -6,7 +6,12 @@ eureka:
     service-url:
       default-zone: http://EUREKA-SERVER
       
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/EmployeeRealm
+  
       
-esPort: 9200
 
 
