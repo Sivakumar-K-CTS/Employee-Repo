@@ -3,6 +3,7 @@ eureka:
     service-url:
       default-zone: http://EUREKA-SERVER
       
+spring:      
   security:
     oauth2:
       resourceserver:
